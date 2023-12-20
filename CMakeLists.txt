@@ -40,7 +40,7 @@ add_compile_options(-Wall -Wextra -Wpedantic)
 # Find the core interface library
 include(ExternalProject)
 externalproject_add(libsurvive
-  GIT_REPOSITORY https://github.com/cntools/libsurvive.git
+  GIT_REPOSITORY https://github.com/maoyangchien/libsurvive.git
   GIT_TAG master
   CMAKE_ARGS
     -DCMAKE_INSTALL_PREFIX=${CMAKE_CURRENT_BINARY_DIR}/libsurvive-install
